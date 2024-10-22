@@ -164,6 +164,10 @@ PrefabInstance:
       value: Corn (5)
       objectReference: {fileID: 0}
     - target: {fileID: 3796851535597101005, guid: 46fb4e4e27f464c4c90f5d36fa73896e, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1851703334}
+    - target: {fileID: 3796851535597101005, guid: 46fb4e4e27f464c4c90f5d36fa73896e, type: 3}
       propertyPath: 'points.Array.data[0]'
       value: 
       objectReference: {fileID: 824809917}
@@ -628,6 +632,10 @@ PrefabInstance:
       value: Corn (7)
       objectReference: {fileID: 0}
     - target: {fileID: 3796851535597101005, guid: 46fb4e4e27f464c4c90f5d36fa73896e, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1851703334}
+    - target: {fileID: 3796851535597101005, guid: 46fb4e4e27f464c4c90f5d36fa73896e, type: 3}
       propertyPath: 'points.Array.data[0]'
       value: 
       objectReference: {fileID: 1728186401}
@@ -939,8 +947,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1618489007464530087, guid: 46fb4e4e27f464c4c90f5d36fa73896e, type: 3}
       propertyPath: m_Speed
-      value: 500
+      value: 16.5
       objectReference: {fileID: 0}
+    - target: {fileID: 1618489007464530087, guid: 46fb4e4e27f464c4c90f5d36fa73896e, type: 3}
+      propertyPath: m_Acceleration
+      value: 8869.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3796851535597101005, guid: 46fb4e4e27f464c4c90f5d36fa73896e, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1851703334}
     - target: {fileID: 3796851535597101005, guid: 46fb4e4e27f464c4c90f5d36fa73896e, type: 3}
       propertyPath: 'points.Array.data[0]'
       value: 
@@ -2894,7 +2910,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d4d8268e9f9de2468523ff156ac10b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseSensitivity: 1000
+  mouseSensitivity: 500
   playerBody: {fileID: 1851703334}
 --- !u!1 &964005937
 GameObject:
@@ -3463,6 +3479,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Corn (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 3796851535597101005, guid: 46fb4e4e27f464c4c90f5d36fa73896e, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1851703334}
     - target: {fileID: 3796851535597101005, guid: 46fb4e4e27f464c4c90f5d36fa73896e, type: 3}
       propertyPath: 'points.Array.data[0]'
       value: 
@@ -4750,6 +4770,10 @@ PrefabInstance:
       value: Corn (6)
       objectReference: {fileID: 0}
     - target: {fileID: 3796851535597101005, guid: 46fb4e4e27f464c4c90f5d36fa73896e, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1851703334}
+    - target: {fileID: 3796851535597101005, guid: 46fb4e4e27f464c4c90f5d36fa73896e, type: 3}
       propertyPath: 'points.Array.data[0]'
       value: 
       objectReference: {fileID: 824809917}
@@ -5542,7 +5566,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 1851703335}
-  speed: 12
+  speed: 16.7
 --- !u!1 &1863129152
 GameObject:
   m_ObjectHideFlags: 0
@@ -6680,7 +6704,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1618489007464530087, guid: 46fb4e4e27f464c4c90f5d36fa73896e, type: 3}
       propertyPath: m_Speed
-      value: 13
+      value: 14.2
       objectReference: {fileID: 0}
     - target: {fileID: 1618489007464530087, guid: 46fb4e4e27f464c4c90f5d36fa73896e, type: 3}
       propertyPath: m_Acceleration
